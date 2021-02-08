@@ -6,4 +6,3 @@ def count_empty_strings(array)
   array.count { |element| element == "" }
 end
 
-puts count_strings([1, 2, "seth", 3, "mel"])
